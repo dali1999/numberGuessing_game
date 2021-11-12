@@ -56,9 +56,3 @@ function handleSubmitGameForm(event){
     }
 }
 gameForm.addEventListener("submit", handleSubmitGameForm);
-
-
-
-
-
-

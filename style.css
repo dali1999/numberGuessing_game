@@ -28,7 +28,15 @@
 }
 .lastResult{
     width: 100px;
-    text-align: center;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.game-form{
+    margin-top: 20px;
 }
 
 
@@ -37,4 +45,7 @@
 }
 .paintGreen{
     background: rgb(24, 194, 24);
+}
+.container{
+    background-image: url("새벽녘.jpg");
 }
