@@ -1,0 +1,40 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 600px;
+}
+.count{
+    font-size: 4em;
+}
+.resultParas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.lastResult{
+    width: 100px;
+    text-align: center;
+}
+
+
+.paintRed{
+    background: rgb(221, 48, 83);
+}
+.paintGreen{
+    background: rgb(24, 194, 24);
+}
